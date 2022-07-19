@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+</head>
+
+<body>
+    <!-- Inicio nav -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <img src="https://digitalcollege.com.br/curso/wp-content/uploads/2022/05/icone-d.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
+            <a class="navbar-brand" href="https://digitalcollege.com.br/">Digital College</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Página Inicial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.html">Contato</a>
+
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Fim nav -->
+    <!-- Inicio Carousel -->
+    
+  
+    <!-- Inicio price -->
+    <div class="container py-3">
+    <!-- inicio form -->
+    <h1>Cadastre-se</h1>
+        <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-4">
+              <label for="validationCustom01" class="form-label">Nome</label>
+              <input type="text" class="form-control" id="validationCustom01" value="..." required>
+              <div class="valid-feedback">
+                Perfeito!
+              </div>
+            </div>
+            <div class="col-md-4">
+              <label for="validationCustom02" class="form-label">Sobrenome</label>
+              <input type="text" class="form-control" id="validationCustom02" value="..." required>
+              <div class="valid-feedback">
+               Perfeito!
+              </div>
+            </div>
+            <div class="col-md-4">
+              <label for="validationCustomUsername" class="form-label">Username</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text" id="inputGroupPrepend">@</span>
+                <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                <div class="invalid-feedback">
+                 Informe o Username.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationCustom03" class="form-label">Cidade</label>
+              <input type="text" class="form-control" id="validationCustom03" required>
+              <div class="invalid-feedback">
+               Selecione sua cidade.
+              </div>
+            </div>
+            <div class="col-md-3">
+              <label for="validationCustom04" class="form-label">Estado</label>
+              <select class="form-select" id="validationCustom04" required>
+                <option selected disabled value="">selecione</option>
+                <option>...</option>
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+                <option value="EX">Estrangeiro</option>
+              </select>
+              <div class="invalid-feedback">
+               selecione o estado!
+              </div>
+            </div>
+            <div class="col-md-3">
+              <label for="validationCustom05" class="form-label">CEP</label>
+              <input type="text" class="form-control" id="validationCustom05" required>
+              <div class="invalid-feedback">
+               selecione seu CEP.
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <label class="form-check-label" for="invalidCheck">
+                  Está de acordo com as condiçoes?
+                </label>
+                <div class="invalid-feedback">
+                  You must agree before submitting.
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit">Arrocha</button>
+            </div>
+          </form>
+              <!-- fim form -->
+
+
+
+        <footer class="pt-4 my-md-5 pt-md-5 border-top">
+            <div class="row">
+                <div class="col-12 col-md">
+                    <img class="mb-2" src="https://digitalcollege.com.br/wp-content/webp-express/webp-images/uploads/2022/05/logo-digital.png.webp" alt="" width="200" height="75" style="background-color:rgb(126, 126, 148) ; border-radius: 9%;" >
+                    <small class="d-block mb-3 text-muted">© 2017–2022</small>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Features</h5>
+                    <ul class="list-unstyled text-small">
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Cool stuff</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Random feature</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team feature</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Stuff for
+                                developers</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another one</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Last time</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Resources</h5>
+                    <ul class="list-unstyled text-small">
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource name</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another resource</a>
+                        </li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Final resource</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>About</h5>
+                    <ul class="list-unstyled text-small">
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- Fim price -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
+</body>
+</html>
